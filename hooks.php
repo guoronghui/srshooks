@@ -1,7 +1,5 @@
 <?php
 $verifyData = file_get_contents("php://input");
-//$verifyData = "{"action":"on_play","client_id":105,"ip":"139.71.22.215","vhost":"__defaultVhost__","app":"live","tcUrl":"rtmp://ip:1935/live?user=player&pwd=123","pageUrl":""}";
-$obj=json_decode($verifyData);
 
 if ( $obj->action == "on_connect"){
     echo "0";
