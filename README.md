@@ -3,7 +3,6 @@ SRS 推流 鉴权 加密
 
 部署PHP文件，并修改SRS配置文件，启用推流鉴权
 
-#推流鉴权，不成熟，等待测试 默认秘钥：/live/1haoji?key=jjtv82008266
 
     http_hooks {
         enabled         on;
