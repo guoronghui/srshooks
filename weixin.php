@@ -48,12 +48,6 @@ else if ( $obj->action == "on_unpublish"){
     echo "0";
 }
 else if ( $obj->action == "on_play"){
-	
-	
-	
-	
-	
-	
     //$arr = parse_url($obj->tcUrl);
     //$arr_query = convertUrlQuery($arr['query']);
     //if ($arr_query["user"] == "player" && $arr_query["pwd"] == "123") {
